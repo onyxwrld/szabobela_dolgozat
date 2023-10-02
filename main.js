@@ -9,6 +9,7 @@ function tolt()
   document.getElementById('gombID').addEventListener('click',kepSzelesseg);
   document.getElementById('gombID').addEventListener('click',kepKeretVastagsag);
   document.getElementById('gombID').addEventListener('click',urlBealittas);
+  document.getElementById('buttonID2').addEventListener('click',sotetVilagos);
 }
 
 function urlBealittas()
@@ -22,9 +23,11 @@ function kepSzelesseg()
   let a = document.getElementById('szelessegID').value;
   document.getElementById('kepID').style.width= a+"px";
   document.getElementById('kepID').style.height= a+"px";
+}
 
-
-  
+function sotetVilagos() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
 }
 function kepKeretVastagsag()
 {

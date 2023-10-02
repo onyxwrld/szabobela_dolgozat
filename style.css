@@ -1,0 +1,8 @@
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+}
